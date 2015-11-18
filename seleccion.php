@@ -7,6 +7,7 @@
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <script src="js/jquery-1.11.3.js" ></script>
 <script src="js/funciones.js" ></script>
+<link rel="shortcut icon" href="images/icono/favicon.ico">
 </head>
 
 <body>																																																																																																																														
