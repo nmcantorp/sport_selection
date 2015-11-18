@@ -18,6 +18,14 @@ switch ($_REQUEST['ac']) {
 		
 	break;
 	
+	case 'consultar':
+		$id_respuesta = $_REQUEST['resp'];
+		$id_pregunta = $_REQUEST['preg'];
+		
+		$resultado = valida_deporte($id_respuesta, $id_pregunta);//print_r($resultado[0]['nom_dep']);die();
+		Respuesta_entrega(200,"Information found", $resultado[0]['nom_dep']);
+	break;
+	
 	case 'abrir':
 		$id_device = $_REQUEST['id'];
 		//die($id_device);

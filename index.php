@@ -27,31 +27,46 @@
 			<li><a href="#">Contacts</a></li>	-->																																																																																																																																																																																																																																													
 		</ul>
 		<!--<span class="page2">02</span>-->
-		<p class="slogan">Lorem ipsum dolor sit amet, conset etur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et con dolore <br /> magna aliqe erat, sed diam </p>
+		<p class="slogan">Ayudamos a la toma de decisión, respecto al deporte a practicar y el ejercicio lo haces tú.</p>
 	</div>
 	<div id="content">																																																																																																																																																																																																																																
 		<div id="left">
 			<img src="images/title5.gif" alt="" width="597" height="43" />
 			<p>
-				Lorem ipsum dolor sit amet, sectetu adip scing varius interdum incid unt quis, libero. Aenean mturpis. Maecenas hendrerit masa laoreet iaculipede mnisl ulamcorper. Tellus er sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede nisl ullamcorpermassa, ac consectetuer feipsum eget pede.  Proin nunc. Donec massa. Nulla pulvinar, nisl ac convallis nonummy, tellus eros sodales enim, in tincidunt mauris in odio.  massa ac laoreet iaculipede nisl ullamcorpermassa,consectetuer feipsum eget pede. Proin nunc. Donec massa. Nulla pulvinar, nisl ac convallis nonummy, tellus eros sodales enim, in tincidunt mauris in odi.
-				Lorem ipsum dolor sit amet, consectetuer adipi scing elit.Mauris u tincidunt quis, libero. <br /><br /> Maecenas hendrerit, massa ac laoreet iaculipedenisl ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc. Donec massa. Nulla pulvinar, nisl ac convallis nonummy, tellus eros sodales enim, in tincidunt mauris in odio.  massa ac laoreet iaculipede nisl ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc. Donec massa. <br /> Nulla pulvinar, nisl ac convallis nonummy, tellus eros sodales enim, in tincidunt mauris in odio.  massa ac laoreet iaculipede nisl ullamcorpermassa,consectetuer feipsum eget pede. Proin nunc. Donec massa. Nulla pulvinar, nisl ac convallis nonummy, tellus eros sodales enim, in tincidunt mauris in odio. <br /><br />
-				Lorem ipsum dolor sit amet, sectetu adip scing varius interdum incid unt quis, libero. Aenean mturpis. Maecenas hendrerit masa laoreet iaculipede mnisl ulamcorper. Tellus er sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede nisl ullamcorpermassa, ac consectetuer feipsum eget pede.  Proin nunc. Donec massa. Nulla pulvinar, nisl ac convallis nonummy, tellus eros sodales enim, in tincidunt mauris in odio.  massa ac laoreet iaculipede nisl ullamcorpermassa,consectetuer feipsum eget pede. Proin nunc. Donec massa. Nulla pulvinar, nisl ac convallis nonummy, tellus eros sodales enim, in tincidunt mauris in odi.
-				Lorem ipsum dolor sit amet, consectetuer adipi scing elit.Mauris u tincidunt quis, libero. <br /><br /> Maecenas hendrerit, massa ac laoreet iaculipedenisl ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc. Donec massa. Nulla pulvinar, nisl ac convallis nonummy, tellus eros sodales enim, in tincidunt mauris in odio.  massa ac laoreet iaculipede nisl ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc. Donec massa. <br /> Nulla pulvinar, nisl ac convallis nonummy, tellus eros sodales enim, in tincidunt mauris in odio.  massa ac laoreet iaculipede nisl ullamcorpermassa,consectetuer feipsum eget pede. Proin nunc. Donec massa. Nulla pulvinar, nisl ac convallis nonummy, tellus eros sodales enim, in tincidunt mauris in odio.
+				Sistema auxiliar para la selección de los posibles deportes a practicar. Actualmente la plataforma cuenta con las siguientes opciones para validar la disciplina que más satisface sus gustos:
+				<div>
+				<table>							
+					<tbody>
+						<tr><td>Baloncesto</td></tr>
+						<tr><td>Futbol</td></tr>
+						<tr><td>Rugby</td></tr>
+						<tr><td>Béisbol</td></tr>
+						<tr><td>Tenis</td></tr>
+						<tr><td>Natación</td></tr>
+						<tr><td>Baile de Salón</td></tr>
+						<tr><td>Tenis de mesa</td></tr>
+						<tr><td>Gimnasia</td></tr>
+					</tbody>
+				</table>				
+				</div>
+	
+				<br>&nbsp;&nbsp; Pronto podrá contar con más deportes.
 			</p>
 		</div>
 		<div id="right">
 			<img src="images/title6.gif" alt="" width="351" height="60" /><br />
 			<p class="text">
-				Lorem ipsum dolor sit amet, sectetu adip scing varius interdum incid unt quis, libero. Aenean mturpis. Maecenas hendrerit masa laoreet iaculipede mnisl ulamcorper. Tellus er sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede nisl ullamcorpermassa, ac consectetuer feipsum eget pede.  Proin nunc. Donec massa. Nulla pulvinar, nisl ac convallis nonummy, tellus eros sodales enim, in tincidunt mauris in odio.  massa ac laoreet iaculipede nisl ullamcorpermassa,consectetuer feipsum eget pede. Proin nunc. Donec massa. Nulla pulvinar, nisl ac convallis nonummy, tellus eros sodales enim, in tincidunt mauris in odi.<br />
-				Lorem ipsum dolor sit amet, consectetuer adipi scing elit.Mauris u tincidunt quis, libero. <br /><br />
-				Maecenas hendrerit, massa ac laoreet iaculipedenisl ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc. Donec massa. Nulla pulvinar, nisl ac convallis nonummy, tellus eros sodales enim, in tincidunt mauris in odio.  massa ac laoreet iaculipede nisl ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc. Donec massa. 			
+				<ol>
+					<li>Pulse clic en la opción "<span>Aquí</span>"</li>
+					<li>Seleccione la respuesta que más satisface su gusto y pulse el botón <div>Siguiente</div></li>
+					<li>Cuando conteste todas las preguntas el sistema le va a indicar cuál podría ser el <strong>Deporte a practica</strong></li>
+				</ol>		
 			</p>
-			<a href="#" class="more">read more</a>
 		</div>
 	</div>
 	<div id="footer">
-		<a href="index.html">Home</a>  |  <a href="index2.html">Training</a>  |  <a href="#">Services</a>  |  <a href="#">Instructors</a>  |  <a href="#">Contacts</a>  |  <a href="#">Site Map</a><br />
-		Copyright &copy;. All rights reserved. Design by <a href="http://www.bestfreetemplates.info" class="bft" title="Best Free Templates" target="_blank">BFT</a>																																																																																						                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <div class="inner_copy"><a href="http://www.webbuildersguide.com/website-builder-categories/fitness-website-builders/">Check post: fitness website builders</div>
+		<a href="index.php">Home</a>  |  <a href="seleccion.php">Realizar Prueba</a> <br />
+		Copyright &copy;. All rights reserved. Design by <a href="javascript:void(0);" class="bft" title="Best Free Templates" target="_blank">Diana Sepulveda y Mauricio Cantor</a>																																																																																						                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <div class="inner_copy"><a href="http://www.webbuildersguide.com/website-builder-categories/fitness-website-builders/">Check post: fitness website builders</div>
 	</div>
 </body>
 </html>
