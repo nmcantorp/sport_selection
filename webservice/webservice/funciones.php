@@ -10,13 +10,11 @@ $objConnect->MySQL();
 
 $query = "	SELECT
             pregunta.pregunta,
-            respuesta.respuesta,
             pregunta.id_preg,
-            respuesta.id_resp
+            pregunta.descripcion_preg,
+            pregunta.imagen_preg
             FROM
-            pregunta
-            INNER JOIN respuesta_pregunta ON pregunta.id_preg = respuesta_pregunta.pregunta_id_preg
-            INNER JOIN respuesta ON respuesta.id_resp = respuesta_pregunta.respuesta_id_resp";
+            pregunta";
 
 $consulta = $objConnect->consulta($query);
 		
@@ -25,16 +23,53 @@ if($objConnect->num_rows($consulta)>0){
  	while($resultados = $objConnect->fetch_array($consulta)){ 
 		  	$result[$conteo]['id_preg'] = $resultados['id_preg'];
 		  	$result[$conteo]['pregunta'] = utf8_encode($resultados['pregunta']);
-		  	$result[$conteo]['id_resp'] = $resultados['id_resp'];
-		  	$result[$conteo]['respuesta'] = utf8_encode($resultados['respuesta']);
+		  	$result[$conteo]['imagen_preg'] = $resultados['imagen_preg'];
+            $result[$conteo]['descripcion_preg'] = utf8_encode($resultados['descripcion_preg']);
+		  	$result[$conteo]['respuesta'] = cargar_respuesta($resultados['id_preg']);
 		  	//$result[$conteo]['pregunta_id_preg'] = $resultados['pregunta_id_preg'];
               $conteo++;
  	}
 }else{
 	$result = 0 ;
 }
+
 return $result;
 }
+
+/** Busca las respuestas por pregunta */
+function cargar_respuesta($id_preg)
+{
+require_once('conexion.php');
+
+$objConnect = new ClassConexion();
+$objConnect->MySQL();
+
+$query = "  SELECT
+            respuesta.id_resp,
+            respuesta.respuesta,
+            respuesta_pregunta.pregunta_id_preg
+            FROM
+            respuesta
+            INNER JOIN respuesta_pregunta ON respuesta_pregunta.respuesta_id_resp = respuesta.id_resp
+            WHERE
+            respuesta_pregunta.pregunta_id_preg = $id_preg";
+
+$consulta = $objConnect->consulta($query);
+        
+if($objConnect->num_rows($consulta)>0){ 
+    $conteo=0;
+    while($resultados = $objConnect->fetch_array($consulta)){ 
+            $result[$conteo]['id_resp'] = $resultados['id_resp'];
+            $result[$conteo]['respuesta'] = utf8_encode($resultados['respuesta']);
+            $result[$conteo]['pregunta_id_preg'] = $resultados['pregunta_id_preg'];           
+            $conteo++;
+    }
+}else{
+    $result = 0 ;
+}
+return $result;
+}
+
 
 /** Carga las validaciones para las respuestas */
 function cargar_validaciones()

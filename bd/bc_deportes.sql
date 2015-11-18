@@ -2,15 +2,15 @@
 Navicat MySQL Data Transfer
 
 Source Server         : Local
-Source Server Version : 50617
+Source Server Version : 50524
 Source Host           : localhost:3306
 Source Database       : bc_deportes
 
 Target Server Type    : MYSQL
-Target Server Version : 50617
+Target Server Version : 50524
 File Encoding         : 65001
 
-Date: 2015-11-17 16:42:10
+Date: 2015-11-18 01:10:52
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -31,7 +31,7 @@ CREATE TABLE `decision` (
   CONSTRAINT `fk_respuesta_has_deporte_deporte1` FOREIGN KEY (`id_dep`) REFERENCES `deporte` (`id_dep`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_respuesta_has_deporte_respuesta1` FOREIGN KEY (`id_resp`) REFERENCES `respuesta` (`id_resp`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_decision_pregunta1` FOREIGN KEY (`pregunta_id_preg`) REFERENCES `pregunta` (`id_preg`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of decision
@@ -60,6 +60,9 @@ INSERT INTO `decision` VALUES ('21', '1', '7', '7');
 INSERT INTO `decision` VALUES ('22', '2', '8', '1');
 INSERT INTO `decision` VALUES ('23', '9', '8', '5');
 INSERT INTO `decision` VALUES ('24', '2', '8', '7');
+INSERT INTO `decision` VALUES ('25', '2', '9', '1');
+INSERT INTO `decision` VALUES ('26', '8', '9', '5');
+INSERT INTO `decision` VALUES ('27', '2', '9', '6');
 
 -- ----------------------------
 -- Table structure for deporte
@@ -70,7 +73,7 @@ CREATE TABLE `deporte` (
   `nom_dep` varchar(255) NOT NULL,
   `imag_dep` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id_dep`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of deporte
@@ -78,11 +81,12 @@ CREATE TABLE `deporte` (
 INSERT INTO `deporte` VALUES ('1', 'Baloncesto', null);
 INSERT INTO `deporte` VALUES ('2', 'Futbol', null);
 INSERT INTO `deporte` VALUES ('3', 'Rugby', null);
-INSERT INTO `deporte` VALUES ('4', 'Criquet', null);
+INSERT INTO `deporte` VALUES ('4', 'Béisbol', null);
 INSERT INTO `deporte` VALUES ('5', 'Tenis', null);
 INSERT INTO `deporte` VALUES ('6', 'Natación', null);
 INSERT INTO `deporte` VALUES ('7', 'Baile de Salón', null);
 INSERT INTO `deporte` VALUES ('8', 'Tenis de mesa', null);
+INSERT INTO `deporte` VALUES ('9', 'Gimnasia', null);
 
 -- ----------------------------
 -- Table structure for pregunta
