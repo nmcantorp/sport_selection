@@ -39,7 +39,7 @@
 				<table>							
 					<tbody>
 						<tr><td>Baloncesto</td></tr>
-						<tr><td>Futbol</td></tr>
+						<tr><td>Fútbol</td></tr>
 						<tr><td>Rugby</td></tr>
 						<tr><td>Béisbol</td></tr>
 						<tr><td>Tenis</td></tr>
